@@ -1,0 +1,15 @@
+[package]
+name = "institutions"
+version = "1.0.0"
+authors = []
+
+[addresses]
+AcademicCertifications = "0xf70593ab3ce5c713932572108d6d41a1566d840b27d502d181826f64950d564e"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
